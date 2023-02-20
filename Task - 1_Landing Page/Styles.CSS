@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    background-color: #eee;
+}
+nav{
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+    overflow: hidden;
+    height: 85px;
+    padding: 10px 90px;
+    box-sizing: border-box;
+    background-color: #11c748;
+}
+#nav-bar {
+    z-index: 10000;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}?
+
+#header-img{
+    margin: -8px -81px;
+    float: left;
+    padding: 9px 12px;
+}
+
+
+
+nav ul{
+    list-style: none;
+    float: right;
+    margin: 23px 5px;
+    padding: 2px -7px;
+    display: flex;
+    font-size: small;
+}
+
+nav ul li a{
+    line-height: 15px;
+    color: black;
+    padding: 12px 30px;
+    font-size: large;
+}
+
+nav ul li a:hover{
+    background-color:snow;
+    border-radius: 9px;
+    
+}
+nav ul li a.active{
+    background-color: tomato;
+    border-radius: 5px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+
+
+form{
+    display: flex;
+    margin: 170px;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+    
+}
+#submit{
+    background-color: yellow;
+    color: black;
+    font-size: larger;
+    font-weight: bolder;
+    margin: 10px;
+}
+#email{
+    margin: 20px;
+}
+
+
+#email{
+    padding: 5px;
+    width: 21%;
+}
+.Features  {
+    display: flex;
+    margin-top: 125px;
+    flex-direction: row;
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-bottom: 75px;
+    width: 70%;
+
+}
+#logo{
+    margin-right: 63px;
+}
+
+/* section{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-items: left;
+    margin-left: 100px;
+} */
+#video{
+    margin-left: auto;
+    margin-right: auto;
+    width: 560px;
+    align-items: center;
+    display: inherit;
+}
+
+#Cost{
+    display: flex;
+    justify-content: center;
+    margin-top: 20%;
+}
+
+#cost{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.Box{
+    display:flexbox;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: calc(100% / 3);
+    margin: 10px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    line-height: 25px;
+}
+.Box > .level{
+    background-color: #ddd;
+    color: black;
+    padding: 15px 0;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+    
+}
+.Box >.button{
+    background-color: orange;
+    transition: background-color 1s;
+}
+
+
+
+
+#footer{
+    margin-top: 0px;
+    background-color: #ddd;
+    padding: 20px;
+    
+    
+}
+ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#last {
+    display: flex;
+    justify-content: flex-end;
+}
+
+@media screen and (max-width: 900px){
+    body{
+        background-color: red;
+    }
+    header{
+        width:fit-content;
+    }
+}
